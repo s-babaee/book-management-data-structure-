@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>basket</class>
+ <widget class="QMainWindow" name="basket">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(67, 67, 67);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>701</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(64, 64, 64);
+background-color: rgb(187, 134, 252);</string>
+       </property>
+       <property name="text">
+        <string>                                              basket</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPlainTextEdit" name="plainTextEdit">
+       <property name="styleSheet">
+        <string notr="true">font: 75 14pt &quot;Arial&quot;;
+background-color: rgb(220, 220, 220);
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton_buy">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+         </property>
+         <property name="text">
+          <string>buy</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_back">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+         </property>
+         <property name="text">
+          <string>back</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

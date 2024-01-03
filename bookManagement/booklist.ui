@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bookList</class>
+ <widget class="QMainWindow" name="bookList">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(67, 67, 67);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>0</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(64, 64, 64);
+background-color: rgb(187, 134, 252);</string>
+    </property>
+    <property name="text">
+     <string> BOOK LIST</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_back">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>520</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+    </property>
+    <property name="text">
+     <string>back</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>42</x>
+      <y>52</y>
+      <width>741</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(64, 64, 64);
+font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(187, 134, 252);</string>
+         </property>
+         <property name="text">
+          <string> book information</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPlainTextEdit" name="plainTextEdit">
+         <property name="styleSheet">
+          <string notr="true">font: 75 14pt &quot;Arial&quot;;
+background-color: rgb(220, 220, 220);
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="pushButton_basket">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+           </property>
+           <property name="text">
+            <string>add to basket</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_choose">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QPushButton" name="pushButton_showall">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+           </property>
+           <property name="text">
+            <string>show all</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_clear">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+           </property>
+           <property name="text">
+            <string>clear all</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(64, 64, 64);
+font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(187, 134, 252);</string>
+         </property>
+         <property name="text">
+          <string>   book list</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="listWidget">
+         <property name="styleSheet">
+          <string notr="true">font: 75 14pt &quot;Arial&quot;;
+background-color: rgb(220, 220, 220);
+color: rgb(0, 0, 0);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(64, 64, 64);
+font: 75 10pt &quot;Arial&quot;;
+background-color: rgb(187, 134, 252);</string>
+           </property>
+           <property name="text">
+            <string> sort by : </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_sort1">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>title</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>author</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>price</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>number</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ISBN</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_sort2">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>asc</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>dec</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="pushButton_show">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(3, 218, 197);
+font: 75 14pt &quot;Arial&quot;;
+color: rgb(15, 15, 15);</string>
+           </property>
+           <property name="text">
+            <string>load</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
